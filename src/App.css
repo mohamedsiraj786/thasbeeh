@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.layer{
+  background-color: black;
+  width: 200px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 10%;
+  height: 200px;
+  border-radius: 5%;
+
 }
 
-.App-link {
-  color: #61dafb;
+button{
+
+  background-color: rgb(189, 142, 233);
+  font: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  font-weight: bolder;
+  padding: 6px;
+  border-radius: 8%;
+  border: none;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  .layer {
+    width: 50%;
+    padding: 20px;
+    margin-top: 50%;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .textlayer {
+    font-weight: 900;
+    font-size: 28px; /* or any desired smaller font size */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+
+
+.displaylayer{
+  background-color: aliceblue;
+  border-radius: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+.textlayer{
+  border-radius: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align: center;
+display: flex;
+
+justify-content: center;
+text-align: center;
+   color: white;
+
+
+}
+
+.textlayer:hover{
+  color: rgb(0, 251, 255);
+  transition: color 2s ;
+  
+
+  
 }
