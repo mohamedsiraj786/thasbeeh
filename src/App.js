@@ -5,6 +5,8 @@ import alhamthulillah from './alhamthulillah.mp3'
 import allahuakbar from './allahuuakbaar.mp3'
 import Asthafirullag from './asthafirullah.mp3';
 
+alert("Assalamu-Alikum");
+
 function Count() {
 
   const [counts, setCount] = useState(0);
