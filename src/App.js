@@ -10,7 +10,7 @@ alert("Assalamu-Alikum");
 function Count() {
 
   const [counts, setCount] = useState(0);
-  const [msg, setMsg] = useState("Asthafirullah");
+  const [msg, setMsg] = useState("Subhanallah");
 
   function increment() {
     setCount(counts + 1);
@@ -29,7 +29,7 @@ function Count() {
     
     if (counts === 100) {
       setCount(0);
-      setMsg("Asthafirullah");
+      setMsg("Subhanallah");
       const audio = new Audio(Asthafirullag);
       audio.play();
     }
